@@ -1,5 +1,5 @@
 #include <iostream>
-#include "Hash.h"
+#include "Hashes.h"
 #include <fstream>
 
 int main() {
@@ -11,7 +11,7 @@ int main() {
     //test name and number
     std::string theBoi = "test";
     int maBoi = 1234;
-    Hash yaBoi;
+    Hashes yaBoi;
 
     //hash function
     for (int i = 0; i < 100; ++i) {

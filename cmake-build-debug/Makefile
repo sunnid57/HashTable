@@ -123,6 +123,33 @@ HashTable/fast:
 	$(MAKE) -f CMakeFiles/HashTable.dir/build.make CMakeFiles/HashTable.dir/build
 .PHONY : HashTable/fast
 
+Hashes.o: Hashes.cpp.o
+
+.PHONY : Hashes.o
+
+# target to build an object file
+Hashes.cpp.o:
+	$(MAKE) -f CMakeFiles/HashTable.dir/build.make CMakeFiles/HashTable.dir/Hashes.cpp.o
+.PHONY : Hashes.cpp.o
+
+Hashes.i: Hashes.cpp.i
+
+.PHONY : Hashes.i
+
+# target to preprocess a source file
+Hashes.cpp.i:
+	$(MAKE) -f CMakeFiles/HashTable.dir/build.make CMakeFiles/HashTable.dir/Hashes.cpp.i
+.PHONY : Hashes.cpp.i
+
+Hashes.s: Hashes.cpp.s
+
+.PHONY : Hashes.s
+
+# target to generate assembly for a file
+Hashes.cpp.s:
+	$(MAKE) -f CMakeFiles/HashTable.dir/build.make CMakeFiles/HashTable.dir/Hashes.cpp.s
+.PHONY : Hashes.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -159,6 +186,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... HashTable"
+	@echo "... Hashes.o"
+	@echo "... Hashes.i"
+	@echo "... Hashes.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

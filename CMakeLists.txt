@@ -3,5 +3,5 @@ project(HashTable)
 
 set(CMAKE_CXX_STANDARD 11)
 
-set(SOURCE_FILES main.cpp)
+set(SOURCE_FILES main.cpp Hashes.cpp Hashes.h)
 add_executable(HashTable ${SOURCE_FILES})

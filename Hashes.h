@@ -7,9 +7,9 @@
 #include <iostream>
 #include <string>
 
-class Hash {
+class Hashes {
 public:
-    Hash();
+    Hashes();
     //hashes name and number
     int myBoi();
     void insert(std::string name, int number);

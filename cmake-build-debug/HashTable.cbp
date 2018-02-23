@@ -78,6 +78,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/51474/Documents/HashTable/Hashes.cpp">
+			<Option target="HashTable"/>
+		</Unit>
+		<Unit filename="/Users/51474/Documents/HashTable/Hashes.h">
+			<Option target="HashTable"/>
+		</Unit>
 		<Unit filename="/Users/51474/Documents/HashTable/main.cpp">
 			<Option target="HashTable"/>
 		</Unit>
