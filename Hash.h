@@ -6,14 +6,13 @@
 #define HASHTABLE_HASH_H
 #include <iostream>
 #include <string>
-using namespace std;
 
 class Hash {
 public:
     Hash();
     //hashes name and number
     int myBoi();
-    void insert(string name, int number);
+    void insert(std::string name, int number);
 private:
     int tabLength;
     int key;
