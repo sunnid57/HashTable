@@ -15,13 +15,13 @@ int Hash::myBoi(){
     }
     //turns hash into a number
     input = hash % tabLength;
-    //int myArray[];
-    //myArray[input];
     return input;
 }
 
 void Hash::insert(string name, int number){
     number += (int)name;
     key += number;
-    return key;
+    myBoi(key);
+    int myArray[tabLength];
+    myArray[input];
 }

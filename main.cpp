@@ -15,16 +15,12 @@ int main() {
     int daBoi = 1234;
 
     Hash yaBoi;
-    //inserts name and number
-    yaBoi.insert(theBoi, daBoi);
+
     //hash function
-    yaBoi.myBoi();
-
-    //array stuff
-    int myArray[100];
-    //myArray[yaBoi.myBoi()];
-
-
+    for (int i = 0; i < 100; ++i) {
+        //inserts name and number
+        yaBoi.insert(theBoi, daBoi);
+    }
 
     return 0;
 }
